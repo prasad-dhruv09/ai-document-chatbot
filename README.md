@@ -44,7 +44,7 @@ project/
 
 ---
 
-##📁 Supported File Types
+## 📁 Supported File Types
 
 File Type	Support
 ✅ PDF	Yes
@@ -54,7 +54,7 @@ File Type	Support
 
 ---
 
-##🧠 How It Works
+## 🧠 How It Works
 1️⃣ Upload Document
 2️⃣ Text extracted using PyPDF2 / python-docx / pandas
 3️⃣ Converted into embeddings (MiniLM-L6-v2)
