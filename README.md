@@ -61,6 +61,7 @@ File Type	Support
 4️⃣ LlamaIndex creates a vector index
 5️⃣ You ask → AI searches → gives accurate, contextual answers
 6️⃣ Chat history stored locally in session
+
 ---
 
 ##🖥️ Screenshots
@@ -85,7 +86,6 @@ project/
 ## 📦 Installation Guide
 
 ### ✅ 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ✅ 2️⃣ Install Dependencies
@@ -98,9 +98,6 @@ ini
 OPENROUTER_API_KEY=your_key_here
 OPENROUTER_API_BASE=https://openrouter.ai/api/v1
 ✅ 4️⃣ Start the Application
-bash
-```
-
 streamlit run app.py
 
 ---
