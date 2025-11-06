@@ -1,0 +1,35 @@
+/* 🌈 Gradient header */
+.header {
+    background: linear-gradient(90deg, #6A11CB, #2575FC);
+    color: white;
+    padding: 1.2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* 💬 Chat styling */
+.chat-message {
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    width: fit-content;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+}
+
+.ai-message {
+    background-color: #E4E6EB;
+    align-self: flex-start;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
