@@ -70,7 +70,6 @@ File Type	Support
 
 ## 📁 Project Structure
 
-md
 Copy code
 project/
 │── app.py
@@ -80,10 +79,9 @@ project/
 │── .gitignore
 │── .env        # your API key (NOT uploaded to GitHub)
 └── data/       # optional folder for sample docs
-```
-✅ 📦 Installation Guide
-md
-Copy code
+
+---
+
 ## 📦 Installation Guide
 
 ### ✅ 1️⃣ Clone the Repository
@@ -92,18 +90,17 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ✅ 2️⃣ Install Dependencies
 bash
-Copy code
+
 pip install -r requirements.txt
 ✅ 3️⃣ Add your API key
 Create a file named .env and add:
-
 ini
-Copy code
 OPENROUTER_API_KEY=your_key_here
 OPENROUTER_API_BASE=https://openrouter.ai/api/v1
 ✅ 4️⃣ Start the Application
 bash
-Copy code
+```
+
 streamlit run app.py
 
 ---
