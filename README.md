@@ -88,15 +88,16 @@ project/
 ### ✅ 1️⃣ Clone the Repository
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-✅ 2️⃣ Install Dependencies
-bash
 
+✅ 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
 ✅ 3️⃣ Add your API key
 Create a file named .env and add:
 ini
 OPENROUTER_API_KEY=your_key_here
 OPENROUTER_API_BASE=https://openrouter.ai/api/v1
+
 ✅ 4️⃣ Start the Application
 streamlit run app.py
 
