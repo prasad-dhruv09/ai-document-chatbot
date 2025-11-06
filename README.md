@@ -68,33 +68,40 @@ OPENROUTER_API_BASE=https://openrouter.ai/api/v1
 bash
 Copy code
 streamlit run app.py
-📁 Supported File Types
-File Type	Support
+
+---
+
+##📁 Supported File Types
+###File Type	Support
 ✅ PDF	Yes
 ✅ TXT	Yes
 ✅ DOCX	Yes
 ✅ CSV	Yes
 
 Max Size: 200MB per file
-
-🧠 How It Works
+---
+##🧠 How It Works
 1️⃣ Upload Document
 2️⃣ Text extracted using PyPDF2 / python-docx / pandas
 3️⃣ Converted into embeddings (MiniLM-L6-v2)
 4️⃣ LlamaIndex creates a vector index
 5️⃣ You ask → AI searches → gives accurate, contextual answers
 6️⃣ Chat history stored locally in session
+---
 
-🖥️ Screenshots
+##🖥️ Screenshots
 ![Screenshot](https://github.<img width="1908" height="890" alt="Screenshot 2025-11-06 115705" src="https://github.com/user-attachments/assets/ff9330c8-69b8-4229-9ce4-5e0de099b2bb" />
+---
 
-
-🤝 Contributing
+##🤝 Contributing
 Pull requests are welcome!
 If you find a bug or have an idea for improvement — feel free to contribute.
 
-⭐ Support
+---
+
+##⭐ Support
 If you like this project, please star ⭐ the repository.
 
-📜 License
+---
+##📜 License
 This project is licensed under the MIT License.
