@@ -44,8 +44,8 @@ project/
 
 ---
 
-##📁 Supported File Types
-###File Type	Support
+#📁 Supported File Types
+##File Type	Support
 ✅ PDF	Yes
 ✅ TXT	Yes
 ✅ DOCX	Yes
@@ -53,6 +53,7 @@ project/
 
 Max Size: 200MB per file
 ---
+
 ##🧠 How It Works
 1️⃣ Upload Document
 2️⃣ Text extracted using PyPDF2 / python-docx / pandas
