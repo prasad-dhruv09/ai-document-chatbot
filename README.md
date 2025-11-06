@@ -64,7 +64,7 @@ File Type	Support
 
 ---
 
-##🖥️ Screenshots
+## 🖥️ Screenshots
 ![Screenshot](https://github.<img width="1908" height="890" alt="Screenshot 2025-11-06 115705" src="https://github.com/user-attachments/assets/ff9330c8-69b8-4229-9ce4-5e0de099b2bb" />
 
 ---
@@ -103,15 +103,15 @@ streamlit run app.py
 
 ---
 
-##🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome!
 If you find a bug or have an idea for improvement — feel free to contribute.
 
 ---
 
-##⭐ Support
+## ⭐ Support
 If you like this project, please star ⭐ the repository.
 
 ---
-##📜 License
+## 📜 License
 This project is licensed under the MIT License.
