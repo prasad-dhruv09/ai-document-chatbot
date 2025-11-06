@@ -1,90 +1,100 @@
-🧠 AI Document Chatbot
+# 🧠 AI Document Chatbot
+**Chat with your documents using LlamaIndex + OpenRouter + HuggingFace Embeddings.**  
+Upload PDFs, Docs, CSVs and ask anything — get context-aware answers instantly.
 
-Chat with your documents using LlamaIndex + OpenRouter + HuggingFace Embeddings.
+---
 
-✅ Features
+## ⭐ Features
 
-Upload PDF, TXT, DOCX, CSV
+✅ Upload **PDF, TXT, DOCX, CSV**  
+✅ Automatic text extraction from all formats  
+✅ Uses **MiniLM-L6-v2 embeddings** for accuracy  
+✅ LlamaIndex **Vector Store + Chat Engine**  
+✅ Chat with memory — multi-turn conversation  
+✅ Clean & modern **Streamlit UI**  
+✅ Secure API key handling through `.env`  
+✅ Sidebar **chat history**  
+✅ Custom CSS support for modern UI  
 
-Extract + embed text automatically
+---
 
-Chat with context-aware answers
+## 🛠 Tech Stack
 
-Uses HuggingFace MiniLM-L6-v2
+| Layer | Technology |
+|------|------------|
+| Frontend | Streamlit |
+| Embeddings | HuggingFace MiniLM-L6-v2 |
+| LLM | OpenRouter (GPT Models) |
+| Vector Index | LlamaIndex |
+| Backend | Python |
+| Styling | Custom CSS |
 
-LlamaIndex chat engine
+---
 
-Secure API key through .env
+## 📁 Project Structure
 
-Clean Streamlit UI
-
-🛠 Tech Stack
-
-Streamlit (Frontend)
-
-LlamaIndex (Vector Index + Query Engine)
-
-OpenRouter API (LLM Provider)
-
-HuggingFace Embeddings
-
-Python
-
-📦 Project Structure
 project/
 │── app.py
 │── style.css
 │── requirements.txt
 │── README.md
 │── .gitignore
-│── .env
-└── data/
+│── .env # your API key (NOT uploaded to GitHub)
+└── data/ # optional folder for sample docs
 
-🔧 Installation
-1️⃣ Clone the repo
+yaml
+Copy code
+
+---
+
+## 📦 Installation Guide
+
+### ✅ 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-
-2️⃣ Install dependencies
+✅ 2️⃣ Install Dependencies
+bash
+Copy code
 pip install -r requirements.txt
-
-3️⃣ Add your API key
-
+✅ 3️⃣ Add your API key
 Create a .env file:
 
-OPENROUTER_API_KEY=your_openrouter_key_here
-
-4️⃣ Run the app
+ini
+Copy code
+OPENROUTER_API_KEY=your_key_here
+OPENROUTER_API_BASE=https://openrouter.ai/api/v1
+✅ 4️⃣ Start the Application
+bash
+Copy code
 streamlit run app.py
-
 📁 Supported File Types
+File Type	Support
+✅ PDF	Yes
+✅ TXT	Yes
+✅ DOCX	Yes
+✅ CSV	Yes
 
-PDF
-
-TXT
-
-DOCX
-
-CSV
-(Max size: 200MB per file)
+Max Size: 200MB per file
 
 🧠 How It Works
-Upload File → Extract Text → Create Embeddings →
-Vector Index → Ask Question → Get Context-aware Answer
+1️⃣ Upload Document
+2️⃣ Text extracted using PyPDF2 / python-docx / pandas
+3️⃣ Converted into embeddings (MiniLM-L6-v2)
+4️⃣ LlamaIndex creates a vector index
+5️⃣ You ask → AI searches → gives accurate, contextual answers
+6️⃣ Chat history stored locally in session
 
-🖼️ Screenshots (Add your own)
-./assets/home.png
-./assets/upload.png
-./assets/chat.png
+🖥️ Screenshots
+![Screenshot](https://github.<img width="1908" height="890" alt="Screenshot 2025-11-06 115705" src="https://github.com/user-attachments/assets/ff9330c8-69b8-4229-9ce4-5e0de099b2bb" />
+
 
 🤝 Contributing
-
-Feel free to fork and improve the project.
+Pull requests are welcome!
+If you find a bug or have an idea for improvement — feel free to contribute.
 
 ⭐ Support
-
-If you like the project, please ⭐ the repository.
+If you like this project, please star ⭐ the repository.
 
 📜 License
-
-MIT License.
+This project is licensed under the MIT License.
