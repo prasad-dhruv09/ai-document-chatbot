@@ -65,6 +65,47 @@ File Type	Support
 
 ##🖥️ Screenshots
 ![Screenshot](https://github.<img width="1908" height="890" alt="Screenshot 2025-11-06 115705" src="https://github.com/user-attachments/assets/ff9330c8-69b8-4229-9ce4-5e0de099b2bb" />
+
+---
+
+## 📁 Project Structure
+
+md
+Copy code
+project/
+│── app.py
+│── style.css
+│── requirements.txt
+│── README.md
+│── .gitignore
+│── .env        # your API key (NOT uploaded to GitHub)
+└── data/       # optional folder for sample docs
+```
+✅ 📦 Installation Guide
+md
+Copy code
+## 📦 Installation Guide
+
+### ✅ 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+✅ 2️⃣ Install Dependencies
+bash
+Copy code
+pip install -r requirements.txt
+✅ 3️⃣ Add your API key
+Create a file named .env and add:
+
+ini
+Copy code
+OPENROUTER_API_KEY=your_key_here
+OPENROUTER_API_BASE=https://openrouter.ai/api/v1
+✅ 4️⃣ Start the Application
+bash
+Copy code
+streamlit run app.py
+
 ---
 
 ##🤝 Contributing
