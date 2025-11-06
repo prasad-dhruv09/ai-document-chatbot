@@ -44,14 +44,14 @@ project/
 
 ---
 
-#📁 Supported File Types
-##File Type	Support
+##📁 Supported File Types
+
+File Type	Support
 ✅ PDF	Yes
 ✅ TXT	Yes
 ✅ DOCX	Yes
 ✅ CSV	Yes
 
-Max Size: 200MB per file
 ---
 
 ##🧠 How It Works
