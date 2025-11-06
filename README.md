@@ -65,7 +65,7 @@ File Type	Support
 ---
 
 ## 🖥️ Screenshots
-![Screenshot](https://github.<img width="1908" height="890" alt="Screenshot 2025-11-06 115705" src="https://github.com/user-attachments/assets/ff9330c8-69b8-4229-9ce4-5e0de099b2bb" />
+<img width="1908" height="890" alt="Screenshot 2025-11-06 115705" src="https://github.com/user-attachments/assets/ff9330c8-69b8-4229-9ce4-5e0de099b2bb" />
 
 ---
 
