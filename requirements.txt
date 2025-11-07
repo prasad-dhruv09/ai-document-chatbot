@@ -1,0 +1,10 @@
+streamlit
+llama-index
+llama-index-llms-openai
+llama-index-embeddings-huggingface
+pypdf2
+python-docx
+pandas
+sentence-transformers
+openai
+python-dotenv
